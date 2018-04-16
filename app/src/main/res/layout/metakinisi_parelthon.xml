@@ -1,0 +1,32 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/customborder"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/labelSpinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextCountry"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editTextCountry"
+            android:layout_below="@+id/editTextCountry"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/add_metakinisi_parelthon"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+            <Spinner
+            android:id="@+id/editText9"
+            android:layout_width="fill_parent"
+            android:layout_height="38dp"
+            android:layout_alignBaseline="@id/labelSpinner1"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/labelSpinner2"
+            android:prompt="@string/spinner_title2"
+            android:spinnerMode="dialog" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,40 @@
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/customborder"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_metakinisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/yellowlight"
+            android:text="@string/add_metakinisi"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/editTextMtk"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/colorPrimary"
+            android:ems="20"
+            android:textColorHint="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:ems="20"
+            android:hint="@string/add_allo"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+</merge>

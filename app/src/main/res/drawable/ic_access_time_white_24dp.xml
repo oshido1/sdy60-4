@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/white"
+        android:width="24dp"
+        android:height="24dp"
+        android:viewportWidth="24.0"
+        android:viewportHeight="24.0"/>
+
+    <item>
+
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/logo_eap_new_el" />
+    </item>
+
+</layer-list>

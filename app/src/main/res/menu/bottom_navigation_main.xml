@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_erasmus"
+        android:enabled="true"
+        android:icon="@drawable/ic_data_usage_black_24dp"
+        android:title="@string/text_erasmus"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_schedules"
+        android:enabled="true"
+        android:icon="@drawable/ic_play_for_work_black_24dp"
+        android:title="@string/text_schedules"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_dimens"
+        android:enabled="true"
+        android:icon="@drawable/ic_data_usage_black_24dp"
+        android:title="@string/text_dimens"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

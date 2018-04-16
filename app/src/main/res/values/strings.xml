@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">SDY61-4</string>
+    <string name="welcome_msg"><b> Καλώς ήλθατε</b>\nστην εφαρμογή\nτου \nΓεωργίου Σκίκου</string>
+
+    <string name="text_erasmus">Erasmus+</string>
+    <string name="text_schedules">Display clock</string>
+    <string name="text_dimens">Dimensions</string>
+    <string name="text_btn_erasmus">Αίτηση (Erasmus+)</string>
+
+    <string name="text_stoixeia">Προσωπικά στοιχεία και επιλογές μετακίνησης</string>
+    <string name="text_aitisi">Εμφάνιση αίτησης</string>
+    <string name="text_diagrafi">Διαγραφή αίτησης</string>
+
+    <string name="Add_name">Ονοματεπώνυμο φοιτητή/τριας</string>
+    <string name="add_mitroo">Αριθμό Μητρώου</string>
+    <string name="add_tmima">Τμήμα και Σχολή </string>
+    <string name="add_epidosi">Ακαδημαϊκή επίδοση</string>
+    <string name="add_metakinisi">Κατηγορία μετακίνησης </string>
+    <string name="add_forea">Κατηγορία φορέα υποδοχής</string>
+    <string name="add_onoma_forea">Ονομασία φορέας υποδοχής</string>
+    <string name="add_xora_forea">Χώρα φορέα υποδοχής</string>
+    <string name="add_metakinisi_parelthon">Μετακίνηση στο παρελθόν</string>
+
+    <string name="add_spoudes">Σπουδές</string>
+    <string name="add_praktiki">Πρακτική Άσκηση</string>
+    <string name="add_allo">Άλλο</string>
+
+    <string name="add_mathimata">Μαθήματα</string>
+    <string name="add_ptixiaki">Πτυχιακή Άσκηση</string>
+    <string name="add_praktiki_askisi">Πρακτική Άσκηση</string>
+    <string name="add_after_placement">After Placement</string>
+
+    <string name="nameerror">Enter a valid name</string>
+
+    <string name="spinner_title">Κατηγορία φορέα υποδοχής</string>
+    <string-array name="spinner1">
+        <item><b>Πανεπιστήμιο</b></item>
+        <item><b>Ερευνητικό Κέντρο</b></item>
+        <item><b>Επιχείρηση</b></item>
+    </string-array>
+
+    <string name="spinner_titleUni">Πανεπιστήμιο</string>
+    <string-array name="spinnerUni">
+        <item>University of Veterinary Medicine Vienna</item>
+        <item>University of Natural Resources and Life Sciences Vienna/BOKU</item>
+        <item>Karl-Franzens-Universität Graz</item>
+        <item>St. Cyril and St. Methodius University</item>
+        <item>Ανοιχτό Πανεπιστήμιο Κύπρου</item>
+    </string-array>
+
+    <string name="spinner_titleRes">Ερευνητικό Κέντρο</string>
+    <string-array name="spinnerRes">
+        <item>DA and MBG Architects</item>
+        <item>Bureau Du Secretaire General des Ecoles Europeennes</item>
+        <item>ALDA</item>
+    </string-array>
+
+    <string name="spinner_titleOrg">Επιχείρηση</string>
+    <string-array name="spinnerOrg">
+        <item>Pernod Ricard</item>
+        <item>Think Young</item>
+        <item>Berlitz</item>
+        <item>Intralot</item>
+    </string-array>
+
+    <string name="spinner_title2">Μετακίνηση στο παρελθόν </string>
+    <string-array name="spinner2">
+        <item>Μετακίνηση για 1η φορά</item>
+        <item>Μετακίνηση για 2η φορά</item>
+    </string-array>
+
+    <string name="spinner_search">Μετακίνηση στο παρελθόν </string>
+    <string-array name="spinner3">
+        <item>Εμφάνιση όλης της λίστας</item>
+        <item>Aναζήτηση με βάση το ονοματεπώνυμο</item>
+        <item>Aναζήτηση με βάση την κατηγορία μετακίνησης</item>
+        <item>Aναζήτηση με βάση τον φορέα υποδοχής</item>
+        <item>Aναζήτηση με βάση τη μετακίνηση στο παρελθόν</item>
+    </string-array>
+
+    <string name="spinner_sxoli">Τμήμα και Σχολή</string>
+    <string-array name="spinner4">
+        <item><b>ΠΤΥΧΙΑΚΑ ΠΡΟΓΡΑΜΜΑΤΑ ΣΠΟΥΔΩΝ</b></item>
+        <item><i><u>Σχολή Ανθρωπιστικών Επιστημών</u></i> - Σπουδές στον Ευρωπαϊκό Πολιτισμό</item>
+        <item><i><u>Σχολή Ανθρωπιστικών Επιστημών</u></i> - Σπουδές στον Ελληνικό Πολιτισμό</item>
+        <item><i><u>Σχολή Ανθρωπιστικών Επιστημών</u></i> - Ισπανική Γλώσσα και Πολιτισμός</item>
+        <item><i><u>Σχολή Θετικών Επιστημών και Τεχνολογίας</u></i> - Σπουδές στις Φυσικές Επιστήμες</item>
+        <item><i><u>Σχολή Θετικών Επιστημών και Τεχνολογίας</u></i> - Πληροφορική</item>
+        <item><i><u>Σχολή Κοινωνικών Επιστημών</u></i> - Διοίκηση Επιχειρήσεων και Οργανισμών</item>
+        <item><i><u>Σχολή Κοινωνικών Επιστημών</u></i> - Δημόσια Διοίκηση (ΔΗΔ)</item>
+
+        <item><b>ΜΕΤΑΠΤΥΧΙΑΚΑ ΠΡΟΓΡΑΜΜΑΤΑ ΣΠΟΥΔΩΝ</b></item>
+        <item><i><u>Σχολή Ανθρωπιστικών Επιστημών</u></i> - Επιστήμες της Αγωγής</item>
+        <item><i><u>Σχολή Ανθρωπιστικών Επιστημών</u></i> - Εκπαίδευση Ενηλίκων MEd</item>
+        <item><i><u>Σχολή Ανθρωπιστικών Επιστημών</u></i> - Διδακτική της Αγγλικής ως Ξένης/Διεθνούς Γλώσσας </item>
+        <item><i><u>Σχολή Ανθρωπιστικών Επιστημών</u></i> - Διδακτική της Γερμανικής ως Ξένης/Διεθνούς Γλώσσας</item>
+        <item><i><u>Σχολή Ανθρωπιστικών Επιστημών</u></i> - Διδακτική της Γαλλικής ως Ξένης/Διεθνούς Γλώσσας</item>
+        <item><i><u>Σχολή Ανθρωπιστικών Επιστημών</u></i> - Σπουδές στην Ορθόδοξη Θεολογία MA</item>
+        <item><i><u>Σχολή Ανθρωπιστικών Επιστημών</u></i> - Γραφικές Τέχνες - Πολυμέσα MA</item>
+        <item><i><u>Σχολή Ανθρωπιστικών Επιστημών</u></i> - Σχεδιασμός Φωτισμού</item>
+        <item><i><u>Σχολή Ανθρωπιστικών Επιστημών</u></i> - Ακουστικός Σχεδιασμός και Ψηφιακός Ήχος</item>
+        <item><i><u>Σχολή Θετικών Επιστημών και Τεχνολογίας</u></i> - Διαχείριση και Τεχνολογία Ποιότητας</item>
+        <item><i><u>Σχολή Θετικών Επιστημών και Τεχνολογίας</u></i> - Περιβαλλοντικός Σχεδιασμός Msc</item>
+        <item><i><u>Σχολή Θετικών Επιστημών και Τεχνολογίας</u></i> - Περιβαλλοντικός Σχεδιασμός Πόλεων και Κτιρίων</item>
+        <item><i><u>Σχολή Θετικών Επιστημών και Τεχνολογίας</u></i> - Περιβαλλοντικός Σχεδιασμός Έργων Υποδομής</item>
+        <item><i><u>Σχολή Θετικών Επιστημών και Τεχνολογίας</u></i> - Διαχείριση Αποβλήτων</item>
+        <item><i><u>Σχολή Θετικών Επιστημών και Τεχνολογίας</u></i> - Διαχείριση Τεχνικών Έργων</item>
+        <item><i><u>Σχολή Θετικών Επιστημών και Τεχνολογίας</u></i> - Σεισμική Μηχανική και Αντισεισμικές Κατασκευές</item>
+        <item><i><u>Σχολή Θετικών Επιστημών και Τεχνολογίας</u></i> - Προχωρημένες Σπουδές στη Φυσική</item>
+        <item><i><u>Σχολή Θετικών Επιστημών και Τεχνολογίας</u></i> - Κατάλυση και Προστασία του Περιβάλλοντος</item>
+        <item><i><u>Σχολή Θετικών Επιστημών και Τεχνολογίας</u></i> - Περιβαλλοντική Κατάλυση για Αντιρύπανση και Παραγωγή Καθαρής Ενέργειας</item>
+        <item><i><u>Σχολή Θετικών Επιστημών και Τεχνολογίας</u></i> - Μεταπτυχιακές Σπουδές στα Μαθηματικά</item>
+        <item><i><u>Σχολή Θετικών Επιστημών και Τεχνολογίας</u></i> - Μεταπτυχιακή Εξειδίκευση στα Πληροφοριακά Συστήματα</item>
+        <item><i><u>Σχολή Θετικών Επιστημών και Τεχνολογίας</u></i> - Μεταπτυχιακή Ειδίκευση Καθηγητών Φυσικών Επιστημών</item>
+        <item><i><u>Σχολή Θετικών Επιστημών και Τεχνολογίας</u></i> - Συστήματα Κινητού και Διάχυτου Υπολογισμού</item>
+        <item><i><u>Σχολή Κοινωνικών Επιστημών</u></i> - Μεταπτυχιακή Ειδίκευση Καθηγητών Φυσικών Επιστημών</item>
+        <item><i><u>Σχολή Κοινωνικών Επιστημών</u></i> - Διοίκηση Μονάδων Υγείας</item>
+        <item><i><u>Σχολή Κοινωνικών Επιστημών</u></i> - Διοίκηση Πολιτισμικών Μονάδων </item>
+        <item><i><u>Σχολή Κοινωνικών Επιστημών</u></i> - Διοίκηση Τουριστικών Επιχειρήσεων</item>
+        <item><i><u>Σχολή Κοινωνικών Επιστημών</u></i> - Τραπεζική</item>
+        <item><i><u>Κοινά Μεταπτυχιακά Προγράμματα Σπουδών ΣΚΕ</u></i> - Δίκαιο της Οικονομίας και των Επιχειρήσεων</item>
+        <item><i><u>Κοινά Μεταπτυχιακά Προγράμματα Σπουδών ΣΚΕ</u></i> - Τραπεζική, Λογιστική και Χρηματοοικονομική</item>
+        <item><i><u>Κοινά Μεταπτυχιακά Προγράμματα Σπουδών ΣΚΕ</u></i> - MSc in Enterprise Risk Management</item>
+        <item><i><u>Κοινά Μεταπτυχιακά Προγράμματα Σπουδών ΣΚΕ</u></i> - Master in Business Administration (MBA)</item>
+
+    </string-array>
+
+    <string name="search_critira">ΑΝΑΖΗΤΗΣΗ ΜΕ ΚΡΙΤΗΡΙΑ</string>
+    <string name="search_only">ΑΝΑΖΗΤΗΣΗ</string>
+    <string name="delete_only">ΔΙΑΓΡΑΦΗ ΜΕ ΒΑΣΗ ΤΟ ΜΗΤΡΩΟ</string>
+    <string name="delete_btn">ΔΙΑΓΡΑΦΗ</string>
+    <string name="display_clock">Display clock</string>
+    <string name="browse_Internet">Browse the Internet </string>
+
+    <string name="digital_clock">ΨΗΦΙΑΚΟ ΡΟΛΟΙ</string>
+    <string name="analogue_clock">ΑΝΑΛΟΓΙΚΟ ΡΟΛΟΙ</string>
+
+    <string name="btn_dimens">ΠΡΟΒΟΛΗ ΔΙΑΣΤΑΣΕΩΝ</string>
+</resources>

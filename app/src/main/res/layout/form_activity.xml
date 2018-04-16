@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/labelSearch_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/search_critira" />
+
+    <Spinner
+        android:id="@+id/search_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="38dp"
+        android:layout_alignBaseline="@id/labelSearch_spinner"
+        android:layout_marginTop="12dp"
+        android:prompt="@string/search_only"
+        android:spinnerMode="dialog" />
+
+    <EditText
+        android:id="@+id/searchText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="20"
+        android:hint="@string/search_only"
+        android:textColorHint="@color/colorSearch" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/white"
+        android:text="@string/search_only"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        >
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="0,1" />
+        <!--<ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"></ListView>-->
+    </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/digital_clock"
+        android:title="@string/digital_clock"
+        android:visible="true"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/analog_clock"
+        android:title="@string/analogue_clock"
+        android:visible="true"
+        app:showAsAction="ifRoom|withText" />
+</menu>

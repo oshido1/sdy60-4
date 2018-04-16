@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_spoudes"
+        android:title="@string/add_spoudes"
+        android:visible="true"
+        android:color="@color/colorPrimaryDark"
+        app:showAsAction="ifRoom|withText" >
+        <menu >
+            <group>
+                <item
+                    android:id="@+id/item_mathimata"
+                    android:title="@string/add_mathimata"
+                    android:visible="true"
+                    app:showAsAction="ifRoom|withText" />
+                <item
+                    android:id="@+id/item_ptixiaki"
+                    android:title="@string/add_ptixiaki"
+                    android:visible="true"
+                    app:showAsAction="ifRoom|withText" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item_praktiki"
+        android:title="@string/add_praktiki"
+        android:visible="true"
+        app:showAsAction="ifRoom|withText">
+        <menu >
+            <group>
+                <item
+                    android:id="@+id/item_praktikiAskisi"
+                    android:title="@string/add_praktiki_askisi"
+                    android:visible="true"
+                    app:showAsAction="ifRoom|withText" />
+                <item
+                    android:id="@+id/item_after_placement"
+                    android:title="@string/add_after_placement"
+                    android:visible="true"
+                    app:showAsAction="ifRoom|withText" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item_allo"
+        android:title="@string/add_allo"
+        android:visible="true"
+        app:showAsAction="ifRoom|withText">
+    </item>
+</menu>
